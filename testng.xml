@@ -1,0 +1,16 @@
+  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+  <suite name="Automation Suite" thread-count="2" parallel="tests">
+    <test name="LogIn" parallel="tests" >
+        <classes>
+            <class name="Proeqti"/>
+        </classes>
+    </test>
+    <test name="LogIn1" parallel="tests" >
+        <classes>
+            <class name="Proeqti2"/>
+        </classes>
+    </test>
+
+  </suite>
